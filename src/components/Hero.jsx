@@ -22,7 +22,7 @@ export default function Hero() {
     <section ref={container} className="relative w-full h-[100dvh] overflow-hidden bg-dark flex flex-col justify-end">
       {/* Background Image */}
       <div
-        className="absolute inset-0 z-0 bg-cover md:bg-contain bg-center bg-no-repeat opacity-80"
+        className="absolute inset-0 z-0 bg-cover bg-center object-cover opacity-80"
         style={{ backgroundImage: "url('/hero-image.jpeg')" }}
       />
       {/* Heavy primary to black gradient overlay */}
