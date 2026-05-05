@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0f1412] text-background rounded-t-[4rem] px-6 py-20 mt-12 overflow-hidden relative">
-      <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/30 to-transparent"></div>
+    <footer className="bg-primary text-background rounded-t-[4rem] px-6 py-20 mt-12 overflow-hidden relative">
+      <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-background/30 to-transparent"></div>
       
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
         
@@ -19,22 +19,22 @@ export default function Footer() {
 
         {/* Links */}
         <div className="flex flex-col gap-4">
-          <h4 className="font-data text-sm text-primary font-bold uppercase tracking-widest mb-2">Navigatie</h4>
-          <a href="#" className="font-body text-background/80 hover:text-accent transition-colors">Home</a>
-          <a href="#features" className="font-body text-background/80 hover:text-accent transition-colors">Wat doet een doula?</a>
-          <a href="#protocol" className="font-body text-background/80 hover:text-accent transition-colors">Werkwijze</a>
-          <a href="#philosophy" className="font-body text-background/80 hover:text-accent transition-colors">Even Voorstellen</a>
-          <a href="#pricing" className="font-body text-background/80 hover:text-accent transition-colors">Stagetraject & Contact</a>
+          <h4 className="font-data text-sm text-background font-bold uppercase tracking-widest mb-2">Navigatie</h4>
+          <a href="#" className="font-body text-background/80 hover:text-white transition-colors">Home</a>
+          <a href="#features" className="font-body text-background/80 hover:text-white transition-colors">Wat doet een doula?</a>
+          <a href="#protocol" className="font-body text-background/80 hover:text-white transition-colors">Werkwijze</a>
+          <a href="#philosophy" className="font-body text-background/80 hover:text-white transition-colors">Even Voorstellen</a>
+          <a href="#pricing" className="font-body text-background/80 hover:text-white transition-colors">Stagetraject & Contact</a>
         </div>
 
         {/* Legal / Social */}
         <div className="flex flex-col gap-4">
-          <h4 className="font-data text-sm text-primary font-bold uppercase tracking-widest mb-2">Contact</h4>
+          <h4 className="font-data text-sm text-background font-bold uppercase tracking-widest mb-2">Contact</h4>
           <span className="font-body text-background/80">Naomi de Jong</span>
           <span className="font-body text-background/80">Oisterwijk, Nederland</span>
-          <a href="mailto:info@moonandbloom.nl" className="font-body text-background/80 hover:text-accent transition-colors">info@moonandbloom.nl</a>
-          <a href="https://wa.me/31612947057" target="_blank" rel="noopener noreferrer" className="font-body text-background/80 hover:text-accent transition-colors">WhatsApp</a>
-          <a href="https://www.instagram.com/moonandbloomdoula/" target="_blank" rel="noopener noreferrer" className="font-body text-background/80 hover:text-accent transition-colors">Instagram</a>
+          <a href="mailto:info@moonandbloom.nl" className="font-body text-background/80 hover:text-white transition-colors">info@moonandbloom.nl</a>
+          <a href="https://wa.me/31612947057" target="_blank" rel="noopener noreferrer" className="font-body text-background/80 hover:text-white transition-colors">WhatsApp</a>
+          <a href="https://www.instagram.com/moonandbloomdoula/" target="_blank" rel="noopener noreferrer" className="font-body text-background/80 hover:text-white transition-colors">Instagram</a>
         </div>
 
       </div>

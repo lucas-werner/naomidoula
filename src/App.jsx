@@ -10,6 +10,7 @@ import Philosophy from './components/Philosophy';
 import FAQ from './components/FAQ';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -37,6 +38,7 @@ function App() {
       <FAQ />
       <Pricing />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
