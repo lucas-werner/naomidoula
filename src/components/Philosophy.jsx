@@ -46,7 +46,7 @@ export default function Philosophy() {
         <div className="w-full lg:w-5/12 philo-anim">
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-full h-full border-2 border-accent rounded-[2rem]"></div>
-            <img src="/portrait-image.jpeg" alt="Portret van Naomi de Jong" className="relative rounded-[2rem] shadow-lg w-full h-auto" />
+            <img src={`${import.meta.env.BASE_URL}portrait-image.jpeg`} alt="Portret van Naomi de Jong" className="relative rounded-[2rem] shadow-lg w-full h-auto" />
           </div>
         </div>
 

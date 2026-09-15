@@ -23,7 +23,7 @@ export default function Hero() {
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center object-cover opacity-80"
-        style={{ backgroundImage: "url('/hero-image.jpeg')" }}
+        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}hero-image.jpeg')` }}
       />
       {/* Heavy primary to black gradient overlay */}
       <div className="absolute inset-0 z-10 bg-gradient-to-t from-dark via-dark/40 to-transparent" />

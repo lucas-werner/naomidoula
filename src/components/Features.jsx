@@ -51,7 +51,7 @@ export default function Features() {
     <section id="features" ref={container} className="py-24 md:py-32 px-6 md:px-12 max-w-7xl mx-auto bg-background">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div className="feature-anim w-full rounded-t-[10rem] rounded-b-[2rem] overflow-hidden shadow-2xl border-4 border-white">
-          <img src="/doula-image.jpeg" alt="Hands holding baby feet" className="w-full h-auto object-cover" />
+          <img src={`${import.meta.env.BASE_URL}doula-image.jpeg`} alt="Hands holding baby feet" className="w-full h-auto object-cover" />
         </div>
         
         <div className="flex flex-col">
